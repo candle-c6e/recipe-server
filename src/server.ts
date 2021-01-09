@@ -93,7 +93,7 @@ async function main() {
 
   server.applyMiddleware({ app, path: PATH, cors: false })
 
-  app.listen(5000, () => {
+  app.listen(6000, () => {
     console.log(`SERVER IS RUNNING 🚀`)
   })
 }
